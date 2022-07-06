@@ -12,6 +12,7 @@ struct Entry: Identifiable {
     var id: UUID = UUID()
     var title: String
     var note: String
+    var date = Date()
     
     static let sampleData: [Entry] = [
         Entry(title: "To-Do", note: "Study"),
